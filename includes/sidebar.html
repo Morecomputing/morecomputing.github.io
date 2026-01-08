@@ -1,0 +1,10 @@
+<nav class="sidebar">
+  {% assign lessons = site.pages | where: "layout", "lesson" | sort: "module" | sort: "order" %}
+
+  {% for lesson in lessons %}
+    <a href="{{ lesson.url }}"
+       class="{% if page.url == lesson.url %}active{% endif %}">
+      {{ lesson.title }}
+    </a>
+  {% endfor %}
+</nav>
