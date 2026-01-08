@@ -1,3 +1,4 @@
 
-title: Foundational Tech
+title: Courseware
 markdown: kramdown
+baseurl: "" # change to "/repo-name" if using project pages
