@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: "1.2 Basics"
+title: "Introduction"
 module: 1
 order: 2
 ---
